@@ -20,7 +20,7 @@ web/
         ChampionLeagueDetail.java  # Page Object Model for detail page
     config/                 # Configuration classes (URLs, environment, etc.)
     utils/                  # Utilities and actions
-pom.xml or build.gradle     # Dependency management
+pom.xml                     # Dependency management
 README.md
 ```
 
@@ -38,26 +38,18 @@ README.md
 
 ### Install Dependencies
 
-For Maven:
+Use Maven:
 ```sh
 mvn clean install
-```
-For Gradle:
-```sh
-gradle build
 ```
 
 ### Run Tests
 
 You can run tests using your IDE or via command line:
 
-For Maven:
+Use Maven:
 ```sh
 mvn test -Dbrowser=chrome -Dheadless=true
-```
-For Gradle:
-```sh
-gradle test -Dbrowser=chrome -Dheadless=true
 ```
 
 ---
@@ -101,6 +93,15 @@ After running your tests, a detailed HTML report is generated automatically.
 
 Open this file in your browser to view the results.
 
+- **Failed test will be take a screenshot:**  
+```
+screenshot/
+    champion_league/
+        checkPathTitle_20250710_013500.png
+        checkPathTitle_20250710_013500.png
+        ...
+
+```
 ---
 
 ## Notes
