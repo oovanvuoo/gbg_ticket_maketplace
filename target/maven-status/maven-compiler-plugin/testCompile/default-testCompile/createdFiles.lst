@@ -1,0 +1,10 @@
+tests/champion_league/page_detail/UICheck.class
+utils/EnvLoader.class
+base/TestListener.class
+utils/AllureScreenshotHelper.class
+pages/BasePage.class
+pages/champion_league/ChampionLeagueDetail.class
+config/Config.class
+utils/Screenshot.class
+base/BaseTest.class
+utils/DriverFactory.class

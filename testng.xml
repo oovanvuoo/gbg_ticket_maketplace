@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="BGB Ticket Marketplace Tests" verbose="1">
+    <listeners>
+        <listener class-name="base.TestListener"/>
+    </listeners>
+    <test name="Run All Tests">
+        <classes>
+            <class name="tests.champion_league.page_detail.UICheck"/>
+            <!-- <class name="tests.champion_league.page_detail.CurrencyCheck"/>
+            <class name="tests.champion_league.page_detail.LanguageCheck"/> -->
+        </classes>
+    </test>
+</suite>
